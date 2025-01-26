@@ -9,4 +9,10 @@ public class Player {
     }
 
     // Métodos para mover o jogador, desenhar, etc.
+    public void moveUp() {
+        y -= speed;
+    }
+
+    // ... outros métodos de movimento
+}
 }

@@ -26,4 +26,18 @@ public void paint(Graphics g) {
     // Desenhar o mapa
     // Desenhar o jogador
 }
+//... dentro da classe GameWindow
+	addKeyListener(new KeyListener() {
+	    @Override
+	    public void keyPressed(KeyEvent e) {
+	        int key = e.getKeyCode();
+	        if (key == KeyEvent.VK_UP) {
+	            player.moveUp();
+	        }
+	        // ... outros movimentos
+	    }
+
+	    // ... outros métodos de KeyListener
+	}
+	}
 }
