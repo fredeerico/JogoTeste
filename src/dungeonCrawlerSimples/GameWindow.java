@@ -26,10 +26,4 @@ public void paint(Graphics g) {
     // Desenhar o mapa
     // Desenhar o jogador
 }
-Timer timer = new Timer(17, e -> {
-    // Atualizar a posição do jogador, verificar colisões, etc.
-    repaint();
-});
-timer.start();
-
 }
